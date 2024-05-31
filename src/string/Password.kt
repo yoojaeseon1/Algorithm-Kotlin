@@ -1,4 +1,4 @@
-// 67
+package string// 67
 
 fun main() {
 

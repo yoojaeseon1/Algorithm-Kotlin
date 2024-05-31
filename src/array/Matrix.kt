@@ -1,4 +1,4 @@
-// 37
+package array// 37
 
 fun main() {
 //    var answer = arrayOf<IntArray>(IntArray(5))
