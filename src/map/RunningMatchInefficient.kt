@@ -1,13 +1,13 @@
-import java.util.*
+package map
 
 fun main() {
 
     var players = arrayOf("mumu", "soe", "poe", "kai", "mine")
     var callings = arrayOf("kai", "kai", "mine", "mine")
 
-    val runningMatch = RunningMatch()
+    val runningMatchInefficient = RunningMatchInefficient()
 
-    runningMatch.solution(players, callings)
+    runningMatchInefficient.solution(players, callings)
 
 //    val nameToPlayer = mutableMapOf<String, Player?>()
 
@@ -20,7 +20,7 @@ fun main() {
 
 }
 
-class RunningMatch {
+class RunningMatchInefficient {
 
 
     fun solution(players: Array<String>, callings: Array<String>): Array<String> {

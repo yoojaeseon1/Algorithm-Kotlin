@@ -1,3 +1,5 @@
+package map
+
 fun main() {
 
     val privateInfo = PrivateInfo()

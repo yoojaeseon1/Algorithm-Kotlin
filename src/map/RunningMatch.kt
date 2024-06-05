@@ -1,13 +1,15 @@
+package map
+
 fun main() {
     var players = arrayOf("mumu", "soe", "poe", "kai", "mine")
     var callings = arrayOf("kai", "kai", "mine", "mine")
-    val runningMatchV2 = RunningMatchV2()
-    val solution = runningMatchV2.solution(players, callings)
+    val runningMatch = RunningMatch()
+    val solution = runningMatch.solution(players, callings)
 
     print(solution.contentToString())
 }
 
-class RunningMatchV2 {
+class RunningMatch {
     fun solution(players: Array<String>, callings: Array<String>): Array<String> {
         val playerToRank = mutableMapOf<String, Int>()
         val rankToPlayer = mutableMapOf<Int, String>()
