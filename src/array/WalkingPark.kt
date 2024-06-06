@@ -1,5 +1,6 @@
 package array
 
+// 73
 fun main() {
 
 
@@ -68,7 +69,7 @@ class WalkingPark {
         // 최대 범위 체크
         val lastX = currentX + (directionX[directionIndex] * distance)
         val lastY = currentY + (directionY[directionIndex] * distance)
-        if(lastX < 0 || lastX >= park[0].length || lastY < 0 || lastY >= park.size)
+        if(lastX !in park[0].indices || lastY !in park.indices)
             return false
         
         // 이동 간 장애물 체크
