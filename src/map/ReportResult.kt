@@ -51,17 +51,17 @@ class ReportResult {
         for(idIndex in id_list.indices) {
             val id = id_list[idIndex]
             val targets = reporterToTarget[id]
-            var numOverK = 0
+            var numMoreK = 0
             if(targets != null) {
                 val targetIter = targets.iterator()
                 while (targetIter.hasNext()) {
                     val target = targetIter.next()
                     if(targetToCount[target]!! >= k) {
-                        numOverK++
+                        numMoreK++
                     }
                 }
             }
-            answer[idIndex] = numOverK
+            answer[idIndex] = numMoreK
         }
 
         return answer
