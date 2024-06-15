@@ -1,4 +1,6 @@
-package DP// 82
+package DP
+
+// 82
 
 class LongJump {
 
