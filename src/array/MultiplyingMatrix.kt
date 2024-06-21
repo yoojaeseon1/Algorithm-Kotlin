@@ -1,4 +1,4 @@
-
+package array
 // 88
 fun main() {
 //    val arr1 = arrayOf<IntArray>(intArrayOf(1,4), intArrayOf(3,2), intArrayOf(4,1))
