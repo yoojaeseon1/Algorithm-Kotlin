@@ -2,6 +2,7 @@ package map
 
 import java.util.*
 
+// 96
 
 fun main() {
 
@@ -18,7 +19,7 @@ fun main() {
 
     println(parkingFee.solution(fees, records))
 
-//    println(15 / 10.0)
+//    println(15 / 10.0)00
 
 }
 class ParkingFee {
