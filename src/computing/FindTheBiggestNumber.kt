@@ -1,5 +1,6 @@
 package computing
 
+//98
 fun main() {
 
 //    val answer = IntArray(5) { -1 }
@@ -29,8 +30,6 @@ class FindTheBiggestNumber {
                 afterBiggerNumbers[afterIndex] = numbers[afterIndex]
             }
         }
-
-        println(afterBiggerNumbers.contentToString())
 
         for((numberIndex, number) in numbers.withIndex()) {
             if(numbers[numberIndex] == afterBiggerNumbers[numberIndex])
