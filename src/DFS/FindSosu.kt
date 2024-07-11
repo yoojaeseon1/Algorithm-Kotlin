@@ -1,3 +1,5 @@
+
+// 104
 fun main() {
 
     val findSosu = FindSosu()
@@ -23,12 +25,6 @@ class FindSosu {
             numbersToChar[index] = number
         }
 
-//        val isVisited = BooleanArray(numbers.length)
-//        isVisited[0] = true
-//        val currentNumber = StringBuilder()
-//        currentNumber.append(numbersToChar[0])
-//
-//        selectNumber(numbersToChar, currentNumber, isVisited)
         selectNumber(numbersToChar, StringBuilder(), BooleanArray(numbers.length))
 
         for (allNumberCase in allNumberCases) {
@@ -44,11 +40,9 @@ class FindSosu {
 
 
     fun selectNumber(numbers: CharArray, currentNumber: StringBuilder, isVisited: BooleanArray) {
-//        println(currentNumber)
-        if(currentNumber.length > 0) {
+        if(currentNumber.length > 0)
             allNumberCases.add(currentNumber.toString().toInt())
-//            println(currentNumber)
-        }
+
 
         for ((numbersIndex, number) in numbers.withIndex()) {
             if(!isVisited[numbersIndex]) {

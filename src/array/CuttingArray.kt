@@ -7,6 +7,11 @@ fun main() {
 
     println(cuttingArray.solution(4,7,14).contentToString())
 
+    var number1 = 5
+    var number2 = 6
+
+
+
 }
 class CuttingArray {
     fun solution(n: Int, left: Long, right: Long): IntArray {
