@@ -2,7 +2,7 @@ package stack
 
 import java.util.*
 
-//ValidParentheses(leetcode)
+//ValidParentheses(leetCode)
 
 class ValidParentheses {
 

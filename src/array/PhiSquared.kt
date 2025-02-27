@@ -3,6 +3,8 @@ package array
 import java.util.*
 
 
+// fail(leetCode)
+
 fun main() {
 
 

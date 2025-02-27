@@ -1,10 +1,17 @@
 package greedy
 
+import java.util.*
+
+
+// leetCode
+
 fun main() {
 
     for(number in 1..2) {
         print(number)
     }
+
+    val stack = Stack<Int>()
 
 }
 

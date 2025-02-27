@@ -1,5 +1,7 @@
 package string
 
+// leetCode
+
 class LongestCommonPrefix {
 
     fun longestCommonPrefix(strs: Array<String>): String {
